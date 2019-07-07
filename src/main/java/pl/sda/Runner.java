@@ -9,6 +9,9 @@ public class Runner {
         Bus bus = new Bus();
 
         person.buyTicketsFor(train, 5);
+
+        person.buyTicketsFor(train, 2);
+
         person.driveBy(train);
 
         person.driveBy(car);
@@ -16,5 +19,7 @@ public class Runner {
         person.buyTicketsFor(bus, 1);
 
         person.buyTicketsFor(bus, 3);
+
+        person.buyTicketsFor(bus, 5);
     }
 }
